@@ -3,7 +3,7 @@ import { LoginData } from '../Interfaces/LoginData';
 import { Usuario } from '../Interfaces/Usuario';
 
 const apiClient = axios.create({
-    baseURL: 'http://localhost:5165/api',
+    baseURL: 'https://37b4pnp5-5165.brs.devtunnels.ms/api',
     headers:{
         'Content-Type': 'application/json'
     }

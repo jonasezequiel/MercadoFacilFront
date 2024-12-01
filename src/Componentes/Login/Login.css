@@ -32,15 +32,15 @@
 .submit-button {
     padding: 5px 10px;
     font-size: 1rem;
-    background-color: #24394f;
+    background-color: #000000;
     color: white;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .submit-button:hover {
-    background-color: #37577a;
+    background-color: #3b3b3b;
 }
 
 /* Estilizando a imagem */
@@ -65,3 +65,4 @@
     font-size: 1.0rem;
     font-weight: bold;
 }
+

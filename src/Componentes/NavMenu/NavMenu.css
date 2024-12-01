@@ -1,0 +1,26 @@
+.fixed-navmenu {
+    position: fixed;
+    top: 0;
+    left: 50%;  /* Move a barra para o centro da tela */
+    width: 120%; /* Aumenta a largura da barra */
+    z-index: 1000;
+    background-color: #ff0909;
+    padding: 1%;
+    box-shadow: 0 4px 6px rgba(252, 82, 15, 0.938); /* Sombra para destacar */
+    transform: translateX(-50%); /* Centraliza a barra com a largura aumentada */
+}
+
+.content {
+    padding-top: 80px; 
+}
+
+/* Sobrescreve a cor do texto para branco para todos os botões com a classe btn-primary */
+.btn-primary {
+    color: white; /* Cor do texto (branco) */
+}
+
+/* Opcional: Se você quiser adicionar um efeito no hover, como alterar a cor do texto ao passar o mouse */
+.btn-primary:hover {
+    color: white; /* Garante que o texto continue branco quando o botão for passado */
+}
+

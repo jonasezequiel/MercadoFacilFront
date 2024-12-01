@@ -1,0 +1,14 @@
+.propaganda {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da página para 100% da altura da janela de visualização */
+    margin: 20px; /* Define uma margem em torno do contêiner */
+}
+
+.propaganda img {
+    max-width: 100%; /* A imagem irá se ajustar ao tamanho da tela */
+    max-height: 80%; /* Limita a altura da imagem para 80% da tela */
+    border-radius: 10px; /* Adiciona bordas arredondadas à imagem (opcional) */
+    margin: 10px; /* Margem ao redor da imagem */
+}

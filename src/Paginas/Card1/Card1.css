@@ -1,0 +1,64 @@
+/* Card1.css */
+body {
+    background-color: #050708; /* Fundo da página (cor mais suave que o fundo do card) */
+    margin: 0;
+    height: 100vh; /* Altura da tela inteira */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-family: Arial, sans-serif; /* Definindo uma fonte para o conteúdo */
+}
+
+.card1-details-container {
+    background-color: #2c3e50; /* Fundo escuro para contrastar com o texto branco */
+    padding: 20px;
+    border-radius: 8px;
+    color: white; /* Texto branco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionando uma sombra suave ao redor */
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    text-align: center; /* Garante que o texto seja centralizado */
+    height: auto;
+    min-height: 80%; /* Garante que o contêiner tenha uma altura mínima suficiente para ser centralizado */
+}
+
+.card1-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.card1-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card1-price-info {
+    margin-bottom: 20px;
+}
+
+.card1-price-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card1-price-value {
+    font-size: 1.5rem;
+    color: #f39c12; /* Cor dourada para o preço */
+}
+
+.card1-company-history {
+    margin-top: 20px;
+}
+
+.card1-history-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card1-history-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

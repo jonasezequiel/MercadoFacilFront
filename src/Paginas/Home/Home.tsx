@@ -1,5 +1,5 @@
 import NavBar from '../../Componentes/NavBar/NavBar';
-import PagedList from '../../Componentes/PagedList/PagedList';
+import Propaganda from '../../Componentes/Propaganda/Propaganda';
 
 import './Home.css';
 const Home = () => {
@@ -7,7 +7,8 @@ const Home = () => {
         <>
             <div className='background'>
                 <NavBar/>
-                <PagedList/>
+                <Propaganda/>
+
             </div>
         </>        
     );
